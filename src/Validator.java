@@ -84,7 +84,6 @@ public class Validator {
 				isValid = true;
 			} else {
 				System.out.println("Input must match the right format: ");
-				
 			}
 
 		} while (!isValid);

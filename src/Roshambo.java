@@ -18,16 +18,6 @@ public enum Roshambo {
 	
 
 	}
-
-	public static Roshambo random() {
-		Roshambo[] move = {Rock, Paper, Scissor};
-        Random r = new Random();
-        int randomNumber = r.nextInt(move.length);
-		return move[randomNumber];
-		
-	}
-	
-	
 	
 	
 }
